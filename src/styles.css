@@ -1,1 +1,68 @@
-/* You can add global styles to this file, and also import other style files */
+@import "app/app.component.css";
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0px auto;
+	background-color: #93e26f !important;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body div {
+	position: relative;
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	color: #ffffff;
+}
+
+#logo {
+	width: 50%;
+	height: 50%;
+	font: 24.0px Helvetica;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 2px;
+	vertical-align: text-bottom;
+	margin: 0px auto;
+}
+
+#logo div {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+}
+
+#loading {
+	width: 50%;
+	height: 50%;
+	font-size: 10.0px;
+}
+
+#slogun {
+	width: 50%;
+	font: 12.0px Bookman;
+	letter-spacing: 1px;
+	padding-bottom:10px;
+}
+
+body div.login {
+	width: 165px;
+	margin: 0px auto;
+	padding-top: 3px;
+}
+
+.login span, .login input {
+	height: 20px;
+	font-size: 10px !important;
+	outline: none;
+}
+
+#login span i {
+	font-size: 10px;
+}

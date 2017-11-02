@@ -48,7 +48,7 @@ body div {
 	width: 50%;
 	font: 12.0px Bookman;
 	letter-spacing: 1px;
-	padding-bottom:10px;
+	padding-bottom: 10px;
 }
 
 body div.login {
@@ -60,7 +60,12 @@ body div.login {
 .login span, .login input {
 	height: 20px;
 	font-size: 10px !important;
-	outline: none;
+}
+
+input.login, input.login:focus {
+	border: 1px solid #cdcdcd;
+	outline: none !important;
+	box-shadow: none;
 }
 
 #login span i {
